@@ -47,6 +47,38 @@ Partial Class F_Secundario
         Me.BTN_A_ExamenFinalCancelar = New System.Windows.Forms.Button()
         Me.Label164 = New System.Windows.Forms.Label()
         Me.BTN_A_ExamenFinalAceptar = New System.Windows.Forms.Button()
+        Me.PNL_A_Facultad = New System.Windows.Forms.Panel()
+        Me.BTN_A_FacultadCancelar = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TXT_A_CodigoFacultad = New System.Windows.Forms.TextBox()
+        Me.BTN_A_FacultadAceptar = New System.Windows.Forms.Button()
+        Me.TXT_A_DescripcionFacultad = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.PNL_A_Alumno = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label185 = New System.Windows.Forms.Label()
+        Me.TXT_A_NLegajoAlumno = New System.Windows.Forms.TextBox()
+        Me.Label184 = New System.Windows.Forms.Label()
+        Me.TXT_A_DNIAlumno = New System.Windows.Forms.TextBox()
+        Me.TXT_A_ApellidoAlumno = New System.Windows.Forms.TextBox()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.BTN_A_AlumnoCancelar = New System.Windows.Forms.Button()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.TXT_A_CUILAlumno = New System.Windows.Forms.TextBox()
+        Me.BTN_A_AlumnoSiguiente = New System.Windows.Forms.Button()
+        Me.TXT_A_NombreAlumno = New System.Windows.Forms.TextBox()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.PNL_A_Alumno2 = New System.Windows.Forms.Panel()
+        Me.BTN_A_AlumnoAtras = New System.Windows.Forms.Button()
+        Me.CLB_A_SeleccioneCarreraAlumno = New System.Windows.Forms.CheckedListBox()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.BTN_A_AlumnoCancelar2 = New System.Windows.Forms.Button()
+        Me.Label82 = New System.Windows.Forms.Label()
+        Me.CMB_A_SeleccionarFacultadAlumno = New System.Windows.Forms.ComboBox()
+        Me.BTN_A_AlumnoAceptar = New System.Windows.Forms.Button()
+        Me.Label83 = New System.Windows.Forms.Label()
         Me.PNL_A_Usuario = New System.Windows.Forms.Panel()
         Me.RDB_A_OtroUsuario = New System.Windows.Forms.RadioButton()
         Me.RDB_A_ProfesorUsuario = New System.Windows.Forms.RadioButton()
@@ -159,25 +191,6 @@ Partial Class F_Secundario
         Me.TXT_A_NombreOtro = New System.Windows.Forms.TextBox()
         Me.Label97 = New System.Windows.Forms.Label()
         Me.Label98 = New System.Windows.Forms.Label()
-        Me.PNL_A_Alumno2 = New System.Windows.Forms.Panel()
-        Me.BTN_A_AlumnoAtras = New System.Windows.Forms.Button()
-        Me.CLB_A_SeleccioneCarreraAlumno = New System.Windows.Forms.CheckedListBox()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.BTN_A_AlumnoCancelar2 = New System.Windows.Forms.Button()
-        Me.Label82 = New System.Windows.Forms.Label()
-        Me.CMB_A_SeleccionarFacultadAlumno = New System.Windows.Forms.ComboBox()
-        Me.BTN_A_AlumnoAceptar = New System.Windows.Forms.Button()
-        Me.Label83 = New System.Windows.Forms.Label()
-        Me.PNL_A_Facultad = New System.Windows.Forms.Panel()
-        Me.BTN_A_FacultadCancelar = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TXT_A_CodigoFacultad = New System.Windows.Forms.TextBox()
-        Me.BTN_A_FacultadAceptar = New System.Windows.Forms.Button()
-        Me.TXT_A_DireccionFacultad = New System.Windows.Forms.TextBox()
-        Me.TXT_A_DescripcionFacultad = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.PNL_A_Aula = New System.Windows.Forms.Panel()
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
@@ -228,6 +241,16 @@ Partial Class F_Secundario
         Me.BTN_E_ExamenFinalCancelar = New System.Windows.Forms.Button()
         Me.Label176 = New System.Windows.Forms.Label()
         Me.BTN_E_ExamenFinalAceptar = New System.Windows.Forms.Button()
+        Me.PNL_E_Facultad = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.CMB_E_SeleccionarFacultad = New System.Windows.Forms.ComboBox()
+        Me.BTN_E_FacultadCancelar = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TXT_E_CodigoFacultad = New System.Windows.Forms.TextBox()
+        Me.BTN_E_FacultadAceptar = New System.Windows.Forms.Button()
+        Me.TXT_E_DescripcionFacultad = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.PNL_E_Usuario = New System.Windows.Forms.Panel()
         Me.RDB_E_OtroUsuario = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
@@ -346,18 +369,6 @@ Partial Class F_Secundario
         Me.TXT_E_NombreOtro = New System.Windows.Forms.TextBox()
         Me.Label104 = New System.Windows.Forms.Label()
         Me.Label105 = New System.Windows.Forms.Label()
-        Me.PNL_E_Facultad = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.CMB_E_SeleccionarFacultad = New System.Windows.Forms.ComboBox()
-        Me.BTN_E_FacultadCancelar = New System.Windows.Forms.Button()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TXT_E_CodigoFacultad = New System.Windows.Forms.TextBox()
-        Me.BTN_E_FacultadAceptar = New System.Windows.Forms.Button()
-        Me.TXT_E_DireccionFacultad = New System.Windows.Forms.TextBox()
-        Me.TXT_E_DescripcionFacultad = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
         Me.PNL_E_Carrera = New System.Windows.Forms.Panel()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.CMB_E_SeleccionarCarreraCarrera = New System.Windows.Forms.ComboBox()
@@ -483,26 +494,14 @@ Partial Class F_Secundario
         Me.BTN_S_MateriaCancelar = New System.Windows.Forms.Button()
         Me.Label126 = New System.Windows.Forms.Label()
         Me.BTN_S_MateriaBorrar = New System.Windows.Forms.Button()
-        Me.PNL_A_Alumno = New System.Windows.Forms.Panel()
-        Me.Label184 = New System.Windows.Forms.Label()
-        Me.TXT_A_DNIAlumno = New System.Windows.Forms.TextBox()
-        Me.TXT_A_ApellidoAlumno = New System.Windows.Forms.TextBox()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.BTN_A_AlumnoCancelar = New System.Windows.Forms.Button()
-        Me.Label77 = New System.Windows.Forms.Label()
-        Me.TXT_A_CUILAlumno = New System.Windows.Forms.TextBox()
-        Me.BTN_A_AlumnoSiguiente = New System.Windows.Forms.Button()
-        Me.TXT_A_NombreAlumno = New System.Windows.Forms.TextBox()
-        Me.Label78 = New System.Windows.Forms.Label()
-        Me.Label79 = New System.Windows.Forms.Label()
-        Me.TXT_A_NLegajoAlumno = New System.Windows.Forms.TextBox()
-        Me.Label185 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.PNL_A_ExamenFinal.SuspendLayout()
         CType(Me.NUD_A_NParcialExamenFinal, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NUD_A_LlamadoExamenFinal, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PNL_A_Facultad.SuspendLayout()
+        Me.PNL_A_Alumno.SuspendLayout()
+        Me.PNL_A_Alumno2.SuspendLayout()
         Me.PNL_A_Usuario.SuspendLayout()
         Me.PNL_A_Curso2.SuspendLayout()
         Me.PNL_A_Curso.SuspendLayout()
@@ -512,14 +511,13 @@ Partial Class F_Secundario
         Me.PNL_A_ProfesorMaterias.SuspendLayout()
         Me.PNL_A_Correlativa.SuspendLayout()
         Me.PNL_A_Otro.SuspendLayout()
-        Me.PNL_A_Alumno2.SuspendLayout()
-        Me.PNL_A_Facultad.SuspendLayout()
         Me.PNL_A_Aula.SuspendLayout()
         Me.PNL_A_Carrera.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.PNL_E_ExamenFinal.SuspendLayout()
         CType(Me.NUD_E_NParcialExamenFinal, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NUP_E_LlamadoExamenFinal, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PNL_E_Facultad.SuspendLayout()
         Me.PNL_E_Usuario.SuspendLayout()
         Me.PNL_E_Curso2.SuspendLayout()
         Me.PNL_E_Curso.SuspendLayout()
@@ -528,7 +526,6 @@ Partial Class F_Secundario
         Me.PNL_E_Alumno2.SuspendLayout()
         Me.PNL_E_Profesor2.SuspendLayout()
         Me.PNL_E_Otro.SuspendLayout()
-        Me.PNL_E_Facultad.SuspendLayout()
         Me.PNL_E_Carrera.SuspendLayout()
         Me.PNL_E_Aula.SuspendLayout()
         Me.PNL_E_Materia.SuspendLayout()
@@ -543,7 +540,6 @@ Partial Class F_Secundario
         Me.PNL_S_Profesor.SuspendLayout()
         Me.PNL_S_Carrera.SuspendLayout()
         Me.PNL_S_Materia.SuspendLayout()
-        Me.PNL_A_Alumno.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -560,6 +556,7 @@ Partial Class F_Secundario
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.PNL_A_ExamenFinal)
+        Me.TabPage1.Controls.Add(Me.PNL_A_Facultad)
         Me.TabPage1.Controls.Add(Me.PNL_A_Alumno)
         Me.TabPage1.Controls.Add(Me.PNL_A_Alumno2)
         Me.TabPage1.Controls.Add(Me.PNL_A_Usuario)
@@ -570,7 +567,6 @@ Partial Class F_Secundario
         Me.TabPage1.Controls.Add(Me.PNL_A_ProfesorMaterias)
         Me.TabPage1.Controls.Add(Me.PNL_A_Correlativa)
         Me.TabPage1.Controls.Add(Me.PNL_A_Otro)
-        Me.TabPage1.Controls.Add(Me.PNL_A_Facultad)
         Me.TabPage1.Controls.Add(Me.PNL_A_Aula)
         Me.TabPage1.Controls.Add(Me.PNL_A_Carrera)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
@@ -816,6 +812,331 @@ Partial Class F_Secundario
         Me.BTN_A_ExamenFinalAceptar.TabIndex = 7
         Me.BTN_A_ExamenFinalAceptar.Text = "Aceptar"
         Me.BTN_A_ExamenFinalAceptar.UseVisualStyleBackColor = True
+        '
+        'PNL_A_Facultad
+        '
+        Me.PNL_A_Facultad.Controls.Add(Me.BTN_A_FacultadCancelar)
+        Me.PNL_A_Facultad.Controls.Add(Me.Label4)
+        Me.PNL_A_Facultad.Controls.Add(Me.TXT_A_CodigoFacultad)
+        Me.PNL_A_Facultad.Controls.Add(Me.BTN_A_FacultadAceptar)
+        Me.PNL_A_Facultad.Controls.Add(Me.TXT_A_DescripcionFacultad)
+        Me.PNL_A_Facultad.Controls.Add(Me.Label6)
+        Me.PNL_A_Facultad.Controls.Add(Me.Label7)
+        Me.PNL_A_Facultad.Location = New System.Drawing.Point(15, 6)
+        Me.PNL_A_Facultad.Name = "PNL_A_Facultad"
+        Me.PNL_A_Facultad.Size = New System.Drawing.Size(114, 56)
+        Me.PNL_A_Facultad.TabIndex = 0
+        Me.PNL_A_Facultad.Visible = False
+        '
+        'BTN_A_FacultadCancelar
+        '
+        Me.BTN_A_FacultadCancelar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_A_FacultadCancelar.Location = New System.Drawing.Point(388, 323)
+        Me.BTN_A_FacultadCancelar.Name = "BTN_A_FacultadCancelar"
+        Me.BTN_A_FacultadCancelar.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_A_FacultadCancelar.TabIndex = 8
+        Me.BTN_A_FacultadCancelar.Text = "Cancelar"
+        Me.BTN_A_FacultadCancelar.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(3, 12)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(106, 32)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Facultad"
+        '
+        'TXT_A_CodigoFacultad
+        '
+        Me.TXT_A_CodigoFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_A_CodigoFacultad.Location = New System.Drawing.Point(88, 76)
+        Me.TXT_A_CodigoFacultad.Name = "TXT_A_CodigoFacultad"
+        Me.TXT_A_CodigoFacultad.Size = New System.Drawing.Size(70, 25)
+        Me.TXT_A_CodigoFacultad.TabIndex = 2
+        '
+        'BTN_A_FacultadAceptar
+        '
+        Me.BTN_A_FacultadAceptar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_A_FacultadAceptar.Location = New System.Drawing.Point(288, 323)
+        Me.BTN_A_FacultadAceptar.Name = "BTN_A_FacultadAceptar"
+        Me.BTN_A_FacultadAceptar.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_A_FacultadAceptar.TabIndex = 7
+        Me.BTN_A_FacultadAceptar.Text = "Aceptar"
+        Me.BTN_A_FacultadAceptar.UseVisualStyleBackColor = True
+        '
+        'TXT_A_DescripcionFacultad
+        '
+        Me.TXT_A_DescripcionFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_A_DescripcionFacultad.Location = New System.Drawing.Point(88, 107)
+        Me.TXT_A_DescripcionFacultad.Name = "TXT_A_DescripcionFacultad"
+        Me.TXT_A_DescripcionFacultad.Size = New System.Drawing.Size(266, 25)
+        Me.TXT_A_DescripcionFacultad.TabIndex = 0
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(6, 115)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(76, 17)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Descripción"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(31, 84)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(51, 17)
+        Me.Label7.TabIndex = 3
+        Me.Label7.Text = "Código"
+        '
+        'PNL_A_Alumno
+        '
+        Me.PNL_A_Alumno.Controls.Add(Me.Button1)
+        Me.PNL_A_Alumno.Controls.Add(Me.Label185)
+        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_NLegajoAlumno)
+        Me.PNL_A_Alumno.Controls.Add(Me.Label184)
+        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_DNIAlumno)
+        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_ApellidoAlumno)
+        Me.PNL_A_Alumno.Controls.Add(Me.Label75)
+        Me.PNL_A_Alumno.Controls.Add(Me.BTN_A_AlumnoCancelar)
+        Me.PNL_A_Alumno.Controls.Add(Me.Label77)
+        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_CUILAlumno)
+        Me.PNL_A_Alumno.Controls.Add(Me.BTN_A_AlumnoSiguiente)
+        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_NombreAlumno)
+        Me.PNL_A_Alumno.Controls.Add(Me.Label78)
+        Me.PNL_A_Alumno.Controls.Add(Me.Label79)
+        Me.PNL_A_Alumno.Location = New System.Drawing.Point(165, 80)
+        Me.PNL_A_Alumno.Name = "PNL_A_Alumno"
+        Me.PNL_A_Alumno.Size = New System.Drawing.Size(112, 58)
+        Me.PNL_A_Alumno.TabIndex = 17
+        Me.PNL_A_Alumno.Visible = False
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(373, 152)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(94, 42)
+        Me.Button1.TabIndex = 18
+        Me.Button1.Text = "Siguiente"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label185
+        '
+        Me.Label185.AutoSize = True
+        Me.Label185.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label185.Location = New System.Drawing.Point(21, 201)
+        Me.Label185.Name = "Label185"
+        Me.Label185.Size = New System.Drawing.Size(66, 17)
+        Me.Label185.TabIndex = 17
+        Me.Label185.Text = "N° Legajo"
+        '
+        'TXT_A_NLegajoAlumno
+        '
+        Me.TXT_A_NLegajoAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_A_NLegajoAlumno.Location = New System.Drawing.Point(90, 198)
+        Me.TXT_A_NLegajoAlumno.Name = "TXT_A_NLegajoAlumno"
+        Me.TXT_A_NLegajoAlumno.Size = New System.Drawing.Size(266, 25)
+        Me.TXT_A_NLegajoAlumno.TabIndex = 16
+        '
+        'Label184
+        '
+        Me.Label184.AutoSize = True
+        Me.Label184.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label184.Location = New System.Drawing.Point(51, 109)
+        Me.Label184.Name = "Label184"
+        Me.Label184.Size = New System.Drawing.Size(30, 17)
+        Me.Label184.TabIndex = 15
+        Me.Label184.Text = "DNI"
+        '
+        'TXT_A_DNIAlumno
+        '
+        Me.TXT_A_DNIAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_A_DNIAlumno.Location = New System.Drawing.Point(90, 103)
+        Me.TXT_A_DNIAlumno.Name = "TXT_A_DNIAlumno"
+        Me.TXT_A_DNIAlumno.Size = New System.Drawing.Size(138, 25)
+        Me.TXT_A_DNIAlumno.TabIndex = 14
+        '
+        'TXT_A_ApellidoAlumno
+        '
+        Me.TXT_A_ApellidoAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_A_ApellidoAlumno.Location = New System.Drawing.Point(90, 167)
+        Me.TXT_A_ApellidoAlumno.Name = "TXT_A_ApellidoAlumno"
+        Me.TXT_A_ApellidoAlumno.Size = New System.Drawing.Size(266, 25)
+        Me.TXT_A_ApellidoAlumno.TabIndex = 10
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Location = New System.Drawing.Point(27, 175)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(56, 17)
+        Me.Label75.TabIndex = 11
+        Me.Label75.Text = "Apellido"
+        '
+        'BTN_A_AlumnoCancelar
+        '
+        Me.BTN_A_AlumnoCancelar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_A_AlumnoCancelar.Location = New System.Drawing.Point(388, 323)
+        Me.BTN_A_AlumnoCancelar.Name = "BTN_A_AlumnoCancelar"
+        Me.BTN_A_AlumnoCancelar.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_A_AlumnoCancelar.TabIndex = 8
+        Me.BTN_A_AlumnoCancelar.Text = "Cancelar"
+        Me.BTN_A_AlumnoCancelar.UseVisualStyleBackColor = True
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Location = New System.Drawing.Point(3, 12)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(100, 32)
+        Me.Label77.TabIndex = 9
+        Me.Label77.Text = "Alumno"
+        '
+        'TXT_A_CUILAlumno
+        '
+        Me.TXT_A_CUILAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_A_CUILAlumno.Location = New System.Drawing.Point(90, 74)
+        Me.TXT_A_CUILAlumno.Name = "TXT_A_CUILAlumno"
+        Me.TXT_A_CUILAlumno.Size = New System.Drawing.Size(138, 25)
+        Me.TXT_A_CUILAlumno.TabIndex = 2
+        '
+        'BTN_A_AlumnoSiguiente
+        '
+        Me.BTN_A_AlumnoSiguiente.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_A_AlumnoSiguiente.Location = New System.Drawing.Point(288, 323)
+        Me.BTN_A_AlumnoSiguiente.Name = "BTN_A_AlumnoSiguiente"
+        Me.BTN_A_AlumnoSiguiente.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_A_AlumnoSiguiente.TabIndex = 7
+        Me.BTN_A_AlumnoSiguiente.Text = "Siguiente"
+        Me.BTN_A_AlumnoSiguiente.UseVisualStyleBackColor = True
+        '
+        'TXT_A_NombreAlumno
+        '
+        Me.TXT_A_NombreAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_A_NombreAlumno.Location = New System.Drawing.Point(90, 134)
+        Me.TXT_A_NombreAlumno.Name = "TXT_A_NombreAlumno"
+        Me.TXT_A_NombreAlumno.Size = New System.Drawing.Size(266, 25)
+        Me.TXT_A_NombreAlumno.TabIndex = 0
+        '
+        'Label78
+        '
+        Me.Label78.AutoSize = True
+        Me.Label78.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Location = New System.Drawing.Point(27, 140)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(57, 17)
+        Me.Label78.TabIndex = 4
+        Me.Label78.Text = "Nombre"
+        '
+        'Label79
+        '
+        Me.Label79.AutoSize = True
+        Me.Label79.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Location = New System.Drawing.Point(49, 82)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(34, 17)
+        Me.Label79.TabIndex = 3
+        Me.Label79.Text = "CUIL"
+        '
+        'PNL_A_Alumno2
+        '
+        Me.PNL_A_Alumno2.Controls.Add(Me.BTN_A_AlumnoAtras)
+        Me.PNL_A_Alumno2.Controls.Add(Me.CLB_A_SeleccioneCarreraAlumno)
+        Me.PNL_A_Alumno2.Controls.Add(Me.Label80)
+        Me.PNL_A_Alumno2.Controls.Add(Me.BTN_A_AlumnoCancelar2)
+        Me.PNL_A_Alumno2.Controls.Add(Me.Label82)
+        Me.PNL_A_Alumno2.Controls.Add(Me.CMB_A_SeleccionarFacultadAlumno)
+        Me.PNL_A_Alumno2.Controls.Add(Me.BTN_A_AlumnoAceptar)
+        Me.PNL_A_Alumno2.Controls.Add(Me.Label83)
+        Me.PNL_A_Alumno2.Location = New System.Drawing.Point(172, 144)
+        Me.PNL_A_Alumno2.Name = "PNL_A_Alumno2"
+        Me.PNL_A_Alumno2.Size = New System.Drawing.Size(115, 58)
+        Me.PNL_A_Alumno2.TabIndex = 27
+        Me.PNL_A_Alumno2.Visible = False
+        '
+        'BTN_A_AlumnoAtras
+        '
+        Me.BTN_A_AlumnoAtras.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_A_AlumnoAtras.Location = New System.Drawing.Point(189, 323)
+        Me.BTN_A_AlumnoAtras.Name = "BTN_A_AlumnoAtras"
+        Me.BTN_A_AlumnoAtras.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_A_AlumnoAtras.TabIndex = 26
+        Me.BTN_A_AlumnoAtras.Text = "Atras"
+        Me.BTN_A_AlumnoAtras.UseVisualStyleBackColor = True
+        '
+        'CLB_A_SeleccioneCarreraAlumno
+        '
+        Me.CLB_A_SeleccioneCarreraAlumno.FormattingEnabled = True
+        Me.CLB_A_SeleccioneCarreraAlumno.Location = New System.Drawing.Point(27, 120)
+        Me.CLB_A_SeleccioneCarreraAlumno.Name = "CLB_A_SeleccioneCarreraAlumno"
+        Me.CLB_A_SeleccioneCarreraAlumno.Size = New System.Drawing.Size(453, 184)
+        Me.CLB_A_SeleccioneCarreraAlumno.TabIndex = 20
+        '
+        'Label80
+        '
+        Me.Label80.AutoSize = True
+        Me.Label80.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(23, 93)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(129, 17)
+        Me.Label80.TabIndex = 19
+        Me.Label80.Text = "Seleccione la carrera"
+        '
+        'BTN_A_AlumnoCancelar2
+        '
+        Me.BTN_A_AlumnoCancelar2.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_A_AlumnoCancelar2.Location = New System.Drawing.Point(389, 323)
+        Me.BTN_A_AlumnoCancelar2.Name = "BTN_A_AlumnoCancelar2"
+        Me.BTN_A_AlumnoCancelar2.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_A_AlumnoCancelar2.TabIndex = 8
+        Me.BTN_A_AlumnoCancelar2.Text = "Cancelar"
+        Me.BTN_A_AlumnoCancelar2.UseVisualStyleBackColor = True
+        '
+        'Label82
+        '
+        Me.Label82.AutoSize = True
+        Me.Label82.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.Location = New System.Drawing.Point(4, 12)
+        Me.Label82.Name = "Label82"
+        Me.Label82.Size = New System.Drawing.Size(100, 32)
+        Me.Label82.TabIndex = 9
+        Me.Label82.Text = "Alumno"
+        '
+        'CMB_A_SeleccionarFacultadAlumno
+        '
+        Me.CMB_A_SeleccionarFacultadAlumno.FormattingEnabled = True
+        Me.CMB_A_SeleccionarFacultadAlumno.Location = New System.Drawing.Point(155, 54)
+        Me.CMB_A_SeleccionarFacultadAlumno.Name = "CMB_A_SeleccionarFacultadAlumno"
+        Me.CMB_A_SeleccionarFacultadAlumno.Size = New System.Drawing.Size(193, 21)
+        Me.CMB_A_SeleccionarFacultadAlumno.TabIndex = 22
+        '
+        'BTN_A_AlumnoAceptar
+        '
+        Me.BTN_A_AlumnoAceptar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_A_AlumnoAceptar.Location = New System.Drawing.Point(289, 323)
+        Me.BTN_A_AlumnoAceptar.Name = "BTN_A_AlumnoAceptar"
+        Me.BTN_A_AlumnoAceptar.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_A_AlumnoAceptar.TabIndex = 7
+        Me.BTN_A_AlumnoAceptar.Text = "Aceptar"
+        Me.BTN_A_AlumnoAceptar.UseVisualStyleBackColor = True
+        '
+        'Label83
+        '
+        Me.Label83.AutoSize = True
+        Me.Label83.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.Location = New System.Drawing.Point(23, 58)
+        Me.Label83.Name = "Label83"
+        Me.Label83.Size = New System.Drawing.Size(126, 17)
+        Me.Label83.TabIndex = 21
+        Me.Label83.Text = "Seleccionar Facultad"
         '
         'PNL_A_Usuario
         '
@@ -1970,199 +2291,6 @@ Partial Class F_Secundario
         Me.Label98.TabIndex = 3
         Me.Label98.Text = "CUIL"
         '
-        'PNL_A_Alumno2
-        '
-        Me.PNL_A_Alumno2.Controls.Add(Me.BTN_A_AlumnoAtras)
-        Me.PNL_A_Alumno2.Controls.Add(Me.CLB_A_SeleccioneCarreraAlumno)
-        Me.PNL_A_Alumno2.Controls.Add(Me.Label80)
-        Me.PNL_A_Alumno2.Controls.Add(Me.BTN_A_AlumnoCancelar2)
-        Me.PNL_A_Alumno2.Controls.Add(Me.Label82)
-        Me.PNL_A_Alumno2.Controls.Add(Me.CMB_A_SeleccionarFacultadAlumno)
-        Me.PNL_A_Alumno2.Controls.Add(Me.BTN_A_AlumnoAceptar)
-        Me.PNL_A_Alumno2.Controls.Add(Me.Label83)
-        Me.PNL_A_Alumno2.Location = New System.Drawing.Point(172, 144)
-        Me.PNL_A_Alumno2.Name = "PNL_A_Alumno2"
-        Me.PNL_A_Alumno2.Size = New System.Drawing.Size(115, 58)
-        Me.PNL_A_Alumno2.TabIndex = 27
-        Me.PNL_A_Alumno2.Visible = False
-        '
-        'BTN_A_AlumnoAtras
-        '
-        Me.BTN_A_AlumnoAtras.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_A_AlumnoAtras.Location = New System.Drawing.Point(189, 323)
-        Me.BTN_A_AlumnoAtras.Name = "BTN_A_AlumnoAtras"
-        Me.BTN_A_AlumnoAtras.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_A_AlumnoAtras.TabIndex = 26
-        Me.BTN_A_AlumnoAtras.Text = "Atras"
-        Me.BTN_A_AlumnoAtras.UseVisualStyleBackColor = True
-        '
-        'CLB_A_SeleccioneCarreraAlumno
-        '
-        Me.CLB_A_SeleccioneCarreraAlumno.FormattingEnabled = True
-        Me.CLB_A_SeleccioneCarreraAlumno.Location = New System.Drawing.Point(27, 120)
-        Me.CLB_A_SeleccioneCarreraAlumno.Name = "CLB_A_SeleccioneCarreraAlumno"
-        Me.CLB_A_SeleccioneCarreraAlumno.Size = New System.Drawing.Size(453, 184)
-        Me.CLB_A_SeleccioneCarreraAlumno.TabIndex = 20
-        '
-        'Label80
-        '
-        Me.Label80.AutoSize = True
-        Me.Label80.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(23, 93)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(129, 17)
-        Me.Label80.TabIndex = 19
-        Me.Label80.Text = "Seleccione la carrera"
-        '
-        'BTN_A_AlumnoCancelar2
-        '
-        Me.BTN_A_AlumnoCancelar2.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_A_AlumnoCancelar2.Location = New System.Drawing.Point(389, 323)
-        Me.BTN_A_AlumnoCancelar2.Name = "BTN_A_AlumnoCancelar2"
-        Me.BTN_A_AlumnoCancelar2.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_A_AlumnoCancelar2.TabIndex = 8
-        Me.BTN_A_AlumnoCancelar2.Text = "Cancelar"
-        Me.BTN_A_AlumnoCancelar2.UseVisualStyleBackColor = True
-        '
-        'Label82
-        '
-        Me.Label82.AutoSize = True
-        Me.Label82.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.Location = New System.Drawing.Point(4, 12)
-        Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(100, 32)
-        Me.Label82.TabIndex = 9
-        Me.Label82.Text = "Alumno"
-        '
-        'CMB_A_SeleccionarFacultadAlumno
-        '
-        Me.CMB_A_SeleccionarFacultadAlumno.FormattingEnabled = True
-        Me.CMB_A_SeleccionarFacultadAlumno.Location = New System.Drawing.Point(155, 54)
-        Me.CMB_A_SeleccionarFacultadAlumno.Name = "CMB_A_SeleccionarFacultadAlumno"
-        Me.CMB_A_SeleccionarFacultadAlumno.Size = New System.Drawing.Size(193, 21)
-        Me.CMB_A_SeleccionarFacultadAlumno.TabIndex = 22
-        '
-        'BTN_A_AlumnoAceptar
-        '
-        Me.BTN_A_AlumnoAceptar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_A_AlumnoAceptar.Location = New System.Drawing.Point(289, 323)
-        Me.BTN_A_AlumnoAceptar.Name = "BTN_A_AlumnoAceptar"
-        Me.BTN_A_AlumnoAceptar.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_A_AlumnoAceptar.TabIndex = 7
-        Me.BTN_A_AlumnoAceptar.Text = "Aceptar"
-        Me.BTN_A_AlumnoAceptar.UseVisualStyleBackColor = True
-        '
-        'Label83
-        '
-        Me.Label83.AutoSize = True
-        Me.Label83.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.Location = New System.Drawing.Point(23, 58)
-        Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(126, 17)
-        Me.Label83.TabIndex = 21
-        Me.Label83.Text = "Seleccionar Facultad"
-        '
-        'PNL_A_Facultad
-        '
-        Me.PNL_A_Facultad.Controls.Add(Me.BTN_A_FacultadCancelar)
-        Me.PNL_A_Facultad.Controls.Add(Me.Label4)
-        Me.PNL_A_Facultad.Controls.Add(Me.TXT_A_CodigoFacultad)
-        Me.PNL_A_Facultad.Controls.Add(Me.BTN_A_FacultadAceptar)
-        Me.PNL_A_Facultad.Controls.Add(Me.TXT_A_DireccionFacultad)
-        Me.PNL_A_Facultad.Controls.Add(Me.TXT_A_DescripcionFacultad)
-        Me.PNL_A_Facultad.Controls.Add(Me.Label5)
-        Me.PNL_A_Facultad.Controls.Add(Me.Label6)
-        Me.PNL_A_Facultad.Controls.Add(Me.Label7)
-        Me.PNL_A_Facultad.Location = New System.Drawing.Point(6, 6)
-        Me.PNL_A_Facultad.Name = "PNL_A_Facultad"
-        Me.PNL_A_Facultad.Size = New System.Drawing.Size(124, 64)
-        Me.PNL_A_Facultad.TabIndex = 0
-        Me.PNL_A_Facultad.Visible = False
-        '
-        'BTN_A_FacultadCancelar
-        '
-        Me.BTN_A_FacultadCancelar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_A_FacultadCancelar.Location = New System.Drawing.Point(388, 323)
-        Me.BTN_A_FacultadCancelar.Name = "BTN_A_FacultadCancelar"
-        Me.BTN_A_FacultadCancelar.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_A_FacultadCancelar.TabIndex = 8
-        Me.BTN_A_FacultadCancelar.Text = "Cancelar"
-        Me.BTN_A_FacultadCancelar.UseVisualStyleBackColor = True
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(3, 12)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(106, 32)
-        Me.Label4.TabIndex = 9
-        Me.Label4.Text = "Facultad"
-        '
-        'TXT_A_CodigoFacultad
-        '
-        Me.TXT_A_CodigoFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_CodigoFacultad.Location = New System.Drawing.Point(88, 76)
-        Me.TXT_A_CodigoFacultad.Name = "TXT_A_CodigoFacultad"
-        Me.TXT_A_CodigoFacultad.Size = New System.Drawing.Size(70, 25)
-        Me.TXT_A_CodigoFacultad.TabIndex = 2
-        '
-        'BTN_A_FacultadAceptar
-        '
-        Me.BTN_A_FacultadAceptar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_A_FacultadAceptar.Location = New System.Drawing.Point(288, 323)
-        Me.BTN_A_FacultadAceptar.Name = "BTN_A_FacultadAceptar"
-        Me.BTN_A_FacultadAceptar.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_A_FacultadAceptar.TabIndex = 7
-        Me.BTN_A_FacultadAceptar.Text = "Aceptar"
-        Me.BTN_A_FacultadAceptar.UseVisualStyleBackColor = True
-        '
-        'TXT_A_DireccionFacultad
-        '
-        Me.TXT_A_DireccionFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_DireccionFacultad.Location = New System.Drawing.Point(88, 138)
-        Me.TXT_A_DireccionFacultad.Name = "TXT_A_DireccionFacultad"
-        Me.TXT_A_DireccionFacultad.Size = New System.Drawing.Size(266, 25)
-        Me.TXT_A_DireccionFacultad.TabIndex = 1
-        '
-        'TXT_A_DescripcionFacultad
-        '
-        Me.TXT_A_DescripcionFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_DescripcionFacultad.Location = New System.Drawing.Point(88, 107)
-        Me.TXT_A_DescripcionFacultad.Name = "TXT_A_DescripcionFacultad"
-        Me.TXT_A_DescripcionFacultad.Size = New System.Drawing.Size(266, 25)
-        Me.TXT_A_DescripcionFacultad.TabIndex = 0
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(20, 146)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(62, 17)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Dirección"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(6, 115)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(76, 17)
-        Me.Label6.TabIndex = 4
-        Me.Label6.Text = "Descripción"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(31, 84)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(51, 17)
-        Me.Label7.TabIndex = 3
-        Me.Label7.Text = "Código"
-        '
         'PNL_A_Aula
         '
         Me.PNL_A_Aula.Controls.Add(Me.Label43)
@@ -2388,6 +2516,7 @@ Partial Class F_Secundario
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.PNL_E_ExamenFinal)
+        Me.TabPage2.Controls.Add(Me.PNL_E_Facultad)
         Me.TabPage2.Controls.Add(Me.PNL_E_Usuario)
         Me.TabPage2.Controls.Add(Me.PNL_E_Curso2)
         Me.TabPage2.Controls.Add(Me.PNL_E_Curso)
@@ -2396,7 +2525,6 @@ Partial Class F_Secundario
         Me.TabPage2.Controls.Add(Me.PNL_E_Alumno2)
         Me.TabPage2.Controls.Add(Me.PNL_E_Profesor2)
         Me.TabPage2.Controls.Add(Me.PNL_E_Otro)
-        Me.TabPage2.Controls.Add(Me.PNL_E_Facultad)
         Me.TabPage2.Controls.Add(Me.PNL_E_Carrera)
         Me.TabPage2.Controls.Add(Me.PNL_E_Aula)
         Me.TabPage2.Controls.Add(Me.PNL_E_Materia)
@@ -2677,6 +2805,107 @@ Partial Class F_Secundario
         Me.BTN_E_ExamenFinalAceptar.TabIndex = 7
         Me.BTN_E_ExamenFinalAceptar.Text = "Aceptar"
         Me.BTN_E_ExamenFinalAceptar.UseVisualStyleBackColor = True
+        '
+        'PNL_E_Facultad
+        '
+        Me.PNL_E_Facultad.Controls.Add(Me.Label9)
+        Me.PNL_E_Facultad.Controls.Add(Me.CMB_E_SeleccionarFacultad)
+        Me.PNL_E_Facultad.Controls.Add(Me.BTN_E_FacultadCancelar)
+        Me.PNL_E_Facultad.Controls.Add(Me.Label8)
+        Me.PNL_E_Facultad.Controls.Add(Me.TXT_E_CodigoFacultad)
+        Me.PNL_E_Facultad.Controls.Add(Me.BTN_E_FacultadAceptar)
+        Me.PNL_E_Facultad.Controls.Add(Me.TXT_E_DescripcionFacultad)
+        Me.PNL_E_Facultad.Controls.Add(Me.Label11)
+        Me.PNL_E_Facultad.Controls.Add(Me.Label17)
+        Me.PNL_E_Facultad.Location = New System.Drawing.Point(14, 6)
+        Me.PNL_E_Facultad.Name = "PNL_E_Facultad"
+        Me.PNL_E_Facultad.Size = New System.Drawing.Size(114, 49)
+        Me.PNL_E_Facultad.TabIndex = 1
+        Me.PNL_E_Facultad.Visible = False
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(91, 67)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(126, 17)
+        Me.Label9.TabIndex = 11
+        Me.Label9.Text = "Seleccionar Facultad"
+        '
+        'CMB_E_SeleccionarFacultad
+        '
+        Me.CMB_E_SeleccionarFacultad.FormattingEnabled = True
+        Me.CMB_E_SeleccionarFacultad.Location = New System.Drawing.Point(94, 91)
+        Me.CMB_E_SeleccionarFacultad.Name = "CMB_E_SeleccionarFacultad"
+        Me.CMB_E_SeleccionarFacultad.Size = New System.Drawing.Size(266, 21)
+        Me.CMB_E_SeleccionarFacultad.TabIndex = 10
+        '
+        'BTN_E_FacultadCancelar
+        '
+        Me.BTN_E_FacultadCancelar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_E_FacultadCancelar.Location = New System.Drawing.Point(388, 323)
+        Me.BTN_E_FacultadCancelar.Name = "BTN_E_FacultadCancelar"
+        Me.BTN_E_FacultadCancelar.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_E_FacultadCancelar.TabIndex = 8
+        Me.BTN_E_FacultadCancelar.Text = "Cancelar"
+        Me.BTN_E_FacultadCancelar.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(3, 12)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(106, 32)
+        Me.Label8.TabIndex = 9
+        Me.Label8.Text = "Facultad"
+        '
+        'TXT_E_CodigoFacultad
+        '
+        Me.TXT_E_CodigoFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_E_CodigoFacultad.Location = New System.Drawing.Point(94, 141)
+        Me.TXT_E_CodigoFacultad.Name = "TXT_E_CodigoFacultad"
+        Me.TXT_E_CodigoFacultad.Size = New System.Drawing.Size(70, 25)
+        Me.TXT_E_CodigoFacultad.TabIndex = 2
+        '
+        'BTN_E_FacultadAceptar
+        '
+        Me.BTN_E_FacultadAceptar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTN_E_FacultadAceptar.Location = New System.Drawing.Point(288, 323)
+        Me.BTN_E_FacultadAceptar.Name = "BTN_E_FacultadAceptar"
+        Me.BTN_E_FacultadAceptar.Size = New System.Drawing.Size(94, 42)
+        Me.BTN_E_FacultadAceptar.TabIndex = 7
+        Me.BTN_E_FacultadAceptar.Text = "Aceptar"
+        Me.BTN_E_FacultadAceptar.UseVisualStyleBackColor = True
+        '
+        'TXT_E_DescripcionFacultad
+        '
+        Me.TXT_E_DescripcionFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_E_DescripcionFacultad.Location = New System.Drawing.Point(94, 172)
+        Me.TXT_E_DescripcionFacultad.Name = "TXT_E_DescripcionFacultad"
+        Me.TXT_E_DescripcionFacultad.Size = New System.Drawing.Size(266, 25)
+        Me.TXT_E_DescripcionFacultad.TabIndex = 0
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(12, 180)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(76, 17)
+        Me.Label11.TabIndex = 4
+        Me.Label11.Text = "Descripción"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(37, 149)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(51, 17)
+        Me.Label17.TabIndex = 3
+        Me.Label17.Text = "Código"
         '
         'PNL_E_Usuario
         '
@@ -3882,127 +4111,6 @@ Partial Class F_Secundario
         Me.Label105.Size = New System.Drawing.Size(34, 17)
         Me.Label105.TabIndex = 3
         Me.Label105.Text = "CUIL"
-        '
-        'PNL_E_Facultad
-        '
-        Me.PNL_E_Facultad.Controls.Add(Me.Label9)
-        Me.PNL_E_Facultad.Controls.Add(Me.CMB_E_SeleccionarFacultad)
-        Me.PNL_E_Facultad.Controls.Add(Me.BTN_E_FacultadCancelar)
-        Me.PNL_E_Facultad.Controls.Add(Me.Label8)
-        Me.PNL_E_Facultad.Controls.Add(Me.TXT_E_CodigoFacultad)
-        Me.PNL_E_Facultad.Controls.Add(Me.BTN_E_FacultadAceptar)
-        Me.PNL_E_Facultad.Controls.Add(Me.TXT_E_DireccionFacultad)
-        Me.PNL_E_Facultad.Controls.Add(Me.TXT_E_DescripcionFacultad)
-        Me.PNL_E_Facultad.Controls.Add(Me.Label10)
-        Me.PNL_E_Facultad.Controls.Add(Me.Label11)
-        Me.PNL_E_Facultad.Controls.Add(Me.Label17)
-        Me.PNL_E_Facultad.Location = New System.Drawing.Point(9, 6)
-        Me.PNL_E_Facultad.Name = "PNL_E_Facultad"
-        Me.PNL_E_Facultad.Size = New System.Drawing.Size(112, 46)
-        Me.PNL_E_Facultad.TabIndex = 1
-        Me.PNL_E_Facultad.Visible = False
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(91, 67)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(126, 17)
-        Me.Label9.TabIndex = 11
-        Me.Label9.Text = "Seleccionar Facultad"
-        '
-        'CMB_E_SeleccionarFacultad
-        '
-        Me.CMB_E_SeleccionarFacultad.FormattingEnabled = True
-        Me.CMB_E_SeleccionarFacultad.Location = New System.Drawing.Point(94, 91)
-        Me.CMB_E_SeleccionarFacultad.Name = "CMB_E_SeleccionarFacultad"
-        Me.CMB_E_SeleccionarFacultad.Size = New System.Drawing.Size(266, 21)
-        Me.CMB_E_SeleccionarFacultad.TabIndex = 10
-        '
-        'BTN_E_FacultadCancelar
-        '
-        Me.BTN_E_FacultadCancelar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_E_FacultadCancelar.Location = New System.Drawing.Point(388, 323)
-        Me.BTN_E_FacultadCancelar.Name = "BTN_E_FacultadCancelar"
-        Me.BTN_E_FacultadCancelar.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_E_FacultadCancelar.TabIndex = 8
-        Me.BTN_E_FacultadCancelar.Text = "Cancelar"
-        Me.BTN_E_FacultadCancelar.UseVisualStyleBackColor = True
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(3, 12)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(106, 32)
-        Me.Label8.TabIndex = 9
-        Me.Label8.Text = "Facultad"
-        '
-        'TXT_E_CodigoFacultad
-        '
-        Me.TXT_E_CodigoFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_E_CodigoFacultad.Location = New System.Drawing.Point(94, 141)
-        Me.TXT_E_CodigoFacultad.Name = "TXT_E_CodigoFacultad"
-        Me.TXT_E_CodigoFacultad.Size = New System.Drawing.Size(70, 25)
-        Me.TXT_E_CodigoFacultad.TabIndex = 2
-        '
-        'BTN_E_FacultadAceptar
-        '
-        Me.BTN_E_FacultadAceptar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_E_FacultadAceptar.Location = New System.Drawing.Point(288, 323)
-        Me.BTN_E_FacultadAceptar.Name = "BTN_E_FacultadAceptar"
-        Me.BTN_E_FacultadAceptar.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_E_FacultadAceptar.TabIndex = 7
-        Me.BTN_E_FacultadAceptar.Text = "Aceptar"
-        Me.BTN_E_FacultadAceptar.UseVisualStyleBackColor = True
-        '
-        'TXT_E_DireccionFacultad
-        '
-        Me.TXT_E_DireccionFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_E_DireccionFacultad.Location = New System.Drawing.Point(94, 203)
-        Me.TXT_E_DireccionFacultad.Name = "TXT_E_DireccionFacultad"
-        Me.TXT_E_DireccionFacultad.Size = New System.Drawing.Size(266, 25)
-        Me.TXT_E_DireccionFacultad.TabIndex = 1
-        '
-        'TXT_E_DescripcionFacultad
-        '
-        Me.TXT_E_DescripcionFacultad.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_E_DescripcionFacultad.Location = New System.Drawing.Point(94, 172)
-        Me.TXT_E_DescripcionFacultad.Name = "TXT_E_DescripcionFacultad"
-        Me.TXT_E_DescripcionFacultad.Size = New System.Drawing.Size(266, 25)
-        Me.TXT_E_DescripcionFacultad.TabIndex = 0
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(26, 211)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(62, 17)
-        Me.Label10.TabIndex = 5
-        Me.Label10.Text = "Dirección"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(12, 180)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(76, 17)
-        Me.Label11.TabIndex = 4
-        Me.Label11.Text = "Descripción"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(37, 149)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(51, 17)
-        Me.Label17.TabIndex = 3
-        Me.Label17.Text = "Código"
         '
         'PNL_E_Carrera
         '
@@ -5287,158 +5395,6 @@ Partial Class F_Secundario
         Me.BTN_S_MateriaBorrar.Text = "Borrar"
         Me.BTN_S_MateriaBorrar.UseVisualStyleBackColor = True
         '
-        'PNL_A_Alumno
-        '
-        Me.PNL_A_Alumno.Controls.Add(Me.Button1)
-        Me.PNL_A_Alumno.Controls.Add(Me.Label185)
-        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_NLegajoAlumno)
-        Me.PNL_A_Alumno.Controls.Add(Me.Label184)
-        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_DNIAlumno)
-        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_ApellidoAlumno)
-        Me.PNL_A_Alumno.Controls.Add(Me.Label75)
-        Me.PNL_A_Alumno.Controls.Add(Me.BTN_A_AlumnoCancelar)
-        Me.PNL_A_Alumno.Controls.Add(Me.Label77)
-        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_CUILAlumno)
-        Me.PNL_A_Alumno.Controls.Add(Me.BTN_A_AlumnoSiguiente)
-        Me.PNL_A_Alumno.Controls.Add(Me.TXT_A_NombreAlumno)
-        Me.PNL_A_Alumno.Controls.Add(Me.Label78)
-        Me.PNL_A_Alumno.Controls.Add(Me.Label79)
-        Me.PNL_A_Alumno.Location = New System.Drawing.Point(165, 80)
-        Me.PNL_A_Alumno.Name = "PNL_A_Alumno"
-        Me.PNL_A_Alumno.Size = New System.Drawing.Size(112, 58)
-        Me.PNL_A_Alumno.TabIndex = 17
-        Me.PNL_A_Alumno.Visible = False
-        '
-        'Label184
-        '
-        Me.Label184.AutoSize = True
-        Me.Label184.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label184.Location = New System.Drawing.Point(51, 109)
-        Me.Label184.Name = "Label184"
-        Me.Label184.Size = New System.Drawing.Size(30, 17)
-        Me.Label184.TabIndex = 15
-        Me.Label184.Text = "DNI"
-        '
-        'TXT_A_DNIAlumno
-        '
-        Me.TXT_A_DNIAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_DNIAlumno.Location = New System.Drawing.Point(90, 103)
-        Me.TXT_A_DNIAlumno.Name = "TXT_A_DNIAlumno"
-        Me.TXT_A_DNIAlumno.Size = New System.Drawing.Size(138, 25)
-        Me.TXT_A_DNIAlumno.TabIndex = 14
-        '
-        'TXT_A_ApellidoAlumno
-        '
-        Me.TXT_A_ApellidoAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_ApellidoAlumno.Location = New System.Drawing.Point(90, 167)
-        Me.TXT_A_ApellidoAlumno.Name = "TXT_A_ApellidoAlumno"
-        Me.TXT_A_ApellidoAlumno.Size = New System.Drawing.Size(266, 25)
-        Me.TXT_A_ApellidoAlumno.TabIndex = 10
-        '
-        'Label75
-        '
-        Me.Label75.AutoSize = True
-        Me.Label75.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(27, 175)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(56, 17)
-        Me.Label75.TabIndex = 11
-        Me.Label75.Text = "Apellido"
-        '
-        'BTN_A_AlumnoCancelar
-        '
-        Me.BTN_A_AlumnoCancelar.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_A_AlumnoCancelar.Location = New System.Drawing.Point(388, 323)
-        Me.BTN_A_AlumnoCancelar.Name = "BTN_A_AlumnoCancelar"
-        Me.BTN_A_AlumnoCancelar.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_A_AlumnoCancelar.TabIndex = 8
-        Me.BTN_A_AlumnoCancelar.Text = "Cancelar"
-        Me.BTN_A_AlumnoCancelar.UseVisualStyleBackColor = True
-        '
-        'Label77
-        '
-        Me.Label77.AutoSize = True
-        Me.Label77.Font = New System.Drawing.Font("Segoe WP Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(3, 12)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(100, 32)
-        Me.Label77.TabIndex = 9
-        Me.Label77.Text = "Alumno"
-        '
-        'TXT_A_CUILAlumno
-        '
-        Me.TXT_A_CUILAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_CUILAlumno.Location = New System.Drawing.Point(90, 74)
-        Me.TXT_A_CUILAlumno.Name = "TXT_A_CUILAlumno"
-        Me.TXT_A_CUILAlumno.Size = New System.Drawing.Size(138, 25)
-        Me.TXT_A_CUILAlumno.TabIndex = 2
-        '
-        'BTN_A_AlumnoSiguiente
-        '
-        Me.BTN_A_AlumnoSiguiente.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTN_A_AlumnoSiguiente.Location = New System.Drawing.Point(288, 323)
-        Me.BTN_A_AlumnoSiguiente.Name = "BTN_A_AlumnoSiguiente"
-        Me.BTN_A_AlumnoSiguiente.Size = New System.Drawing.Size(94, 42)
-        Me.BTN_A_AlumnoSiguiente.TabIndex = 7
-        Me.BTN_A_AlumnoSiguiente.Text = "Siguiente"
-        Me.BTN_A_AlumnoSiguiente.UseVisualStyleBackColor = True
-        '
-        'TXT_A_NombreAlumno
-        '
-        Me.TXT_A_NombreAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_NombreAlumno.Location = New System.Drawing.Point(90, 134)
-        Me.TXT_A_NombreAlumno.Name = "TXT_A_NombreAlumno"
-        Me.TXT_A_NombreAlumno.Size = New System.Drawing.Size(266, 25)
-        Me.TXT_A_NombreAlumno.TabIndex = 0
-        '
-        'Label78
-        '
-        Me.Label78.AutoSize = True
-        Me.Label78.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(27, 140)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(57, 17)
-        Me.Label78.TabIndex = 4
-        Me.Label78.Text = "Nombre"
-        '
-        'Label79
-        '
-        Me.Label79.AutoSize = True
-        Me.Label79.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.Location = New System.Drawing.Point(49, 82)
-        Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(34, 17)
-        Me.Label79.TabIndex = 3
-        Me.Label79.Text = "CUIL"
-        '
-        'TXT_A_NLegajoAlumno
-        '
-        Me.TXT_A_NLegajoAlumno.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_A_NLegajoAlumno.Location = New System.Drawing.Point(90, 198)
-        Me.TXT_A_NLegajoAlumno.Name = "TXT_A_NLegajoAlumno"
-        Me.TXT_A_NLegajoAlumno.Size = New System.Drawing.Size(266, 25)
-        Me.TXT_A_NLegajoAlumno.TabIndex = 16
-        '
-        'Label185
-        '
-        Me.Label185.AutoSize = True
-        Me.Label185.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label185.Location = New System.Drawing.Point(21, 201)
-        Me.Label185.Name = "Label185"
-        Me.Label185.Size = New System.Drawing.Size(66, 17)
-        Me.Label185.TabIndex = 17
-        Me.Label185.Text = "N° Legajo"
-        '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Segoe WP", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(373, 152)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(94, 42)
-        Me.Button1.TabIndex = 18
-        Me.Button1.Text = "Siguiente"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'F_Secundario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -5454,6 +5410,12 @@ Partial Class F_Secundario
         Me.PNL_A_ExamenFinal.PerformLayout()
         CType(Me.NUD_A_NParcialExamenFinal, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NUD_A_LlamadoExamenFinal, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PNL_A_Facultad.ResumeLayout(False)
+        Me.PNL_A_Facultad.PerformLayout()
+        Me.PNL_A_Alumno.ResumeLayout(False)
+        Me.PNL_A_Alumno.PerformLayout()
+        Me.PNL_A_Alumno2.ResumeLayout(False)
+        Me.PNL_A_Alumno2.PerformLayout()
         Me.PNL_A_Usuario.ResumeLayout(False)
         Me.PNL_A_Usuario.PerformLayout()
         Me.PNL_A_Curso2.ResumeLayout(False)
@@ -5471,10 +5433,6 @@ Partial Class F_Secundario
         Me.PNL_A_Correlativa.PerformLayout()
         Me.PNL_A_Otro.ResumeLayout(False)
         Me.PNL_A_Otro.PerformLayout()
-        Me.PNL_A_Alumno2.ResumeLayout(False)
-        Me.PNL_A_Alumno2.PerformLayout()
-        Me.PNL_A_Facultad.ResumeLayout(False)
-        Me.PNL_A_Facultad.PerformLayout()
         Me.PNL_A_Aula.ResumeLayout(False)
         Me.PNL_A_Aula.PerformLayout()
         Me.PNL_A_Carrera.ResumeLayout(False)
@@ -5484,6 +5442,8 @@ Partial Class F_Secundario
         Me.PNL_E_ExamenFinal.PerformLayout()
         CType(Me.NUD_E_NParcialExamenFinal, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NUP_E_LlamadoExamenFinal, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PNL_E_Facultad.ResumeLayout(False)
+        Me.PNL_E_Facultad.PerformLayout()
         Me.PNL_E_Usuario.ResumeLayout(False)
         Me.PNL_E_Usuario.PerformLayout()
         Me.PNL_E_Curso2.ResumeLayout(False)
@@ -5500,8 +5460,6 @@ Partial Class F_Secundario
         Me.PNL_E_Profesor2.PerformLayout()
         Me.PNL_E_Otro.ResumeLayout(False)
         Me.PNL_E_Otro.PerformLayout()
-        Me.PNL_E_Facultad.ResumeLayout(False)
-        Me.PNL_E_Facultad.PerformLayout()
         Me.PNL_E_Carrera.ResumeLayout(False)
         Me.PNL_E_Carrera.PerformLayout()
         Me.PNL_E_Aula.ResumeLayout(False)
@@ -5529,8 +5487,6 @@ Partial Class F_Secundario
         Me.PNL_S_Carrera.PerformLayout()
         Me.PNL_S_Materia.ResumeLayout(False)
         Me.PNL_S_Materia.PerformLayout()
-        Me.PNL_A_Alumno.ResumeLayout(False)
-        Me.PNL_A_Alumno.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -5637,9 +5593,7 @@ Partial Class F_Secundario
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents TXT_A_CodigoFacultad As System.Windows.Forms.TextBox
     Friend WithEvents BTN_A_FacultadAceptar As System.Windows.Forms.Button
-    Friend WithEvents TXT_A_DireccionFacultad As System.Windows.Forms.TextBox
     Friend WithEvents TXT_A_DescripcionFacultad As System.Windows.Forms.TextBox
-    Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents PNL_A_Aula As System.Windows.Forms.Panel
@@ -5753,9 +5707,7 @@ Partial Class F_Secundario
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents TXT_E_CodigoFacultad As System.Windows.Forms.TextBox
     Friend WithEvents BTN_E_FacultadAceptar As System.Windows.Forms.Button
-    Friend WithEvents TXT_E_DireccionFacultad As System.Windows.Forms.TextBox
     Friend WithEvents TXT_E_DescripcionFacultad As System.Windows.Forms.TextBox
-    Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents PNL_E_Carrera As System.Windows.Forms.Panel

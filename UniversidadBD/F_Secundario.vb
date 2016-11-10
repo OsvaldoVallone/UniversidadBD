@@ -1,9 +1,11 @@
 ﻿Public Class F_Secundario
+    Public Facultad As New Facultad()
     Private oConeccion As New Coneccion()
     Public Alumno As New Alumnos
     Private Profesor As New Profesores
     Private Otro As New Otros
     Private oConfiguracion As New Configuracion()
+    'CLICKS PARA SIGUIENTE PANEL
     Private Sub BTN_A_MateriaSiguiente_Click_1(sender As Object, e As EventArgs) Handles BTN_A_MateriaSiguiente.Click
         PNL_A_Materia.Visible = False
         oConfiguracion.EstablecerConfiguracion(Me, PNL_A_Correlativa, TabControl1)
@@ -32,12 +34,28 @@
         PNL_E_Curso.Visible = False
         oConfiguracion.EstablecerConfiguracion(Me, PNL_E_Curso2, TabControl1)
     End Sub
+    'OPERACIONES EN BASE DE DATOS
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Alumno.Nombre = TXT_A_NombreAlumno.Text
         Alumno.Apellido = TXT_A_ApellidoAlumno.Text
         Alumno.DNI = TXT_A_DNIAlumno.Text
         Alumno.NumeroDeLegajo = TXT_A_NLegajoAlumno.Text
         Alumno.CUIL = TXT_A_CUILAlumno.Text
-        oConeccion.InsertarAlumno()
+        Alumno.InsertarAlumno()
+    End Sub
+    Private Sub BTN_A_FacultadAceptar_Click(sender As Object, e As EventArgs) Handles BTN_A_FacultadAceptar.Click
+        Facultad.Codigo = TXT_A_CodigoFacultad.Text
+        Facultad.Descripcion = TXT_A_DescripcionFacultad.Text
+        Facultad.InsertarFacultad()
+        Me.Close()
+    End Sub
+    'EVENTOS DE LA VISIBILIDAD DE LOS PANELES
+    Private Sub PNL_E_Facultad_VisibleChanged(sender As Object, e As EventArgs) Handles PNL_E_Facultad.VisibleChanged
+        oConfiguracion.CargarComboBox(CMB_E_SeleccionarFacultad, PNL_E_Facultad, "FACULTAD", "DESCRIPCION")
+    End Sub
+    'COMBOBOXS
+    Private Sub CMB_E_SeleccionarFacultad_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CMB_E_SeleccionarFacultad.SelectedIndexChanged
+        TXT_E_CodigoFacultad.Text = Facultad.Codigo
+        TXT_E_DescripcionFacultad.Text = Facultad.Descripcion
     End Sub
 End Class

@@ -1,4 +1,5 @@
-﻿Public NotInheritable Class Alumnos
+﻿Imports Oracle.DataAccess.Client
+Public NotInheritable Class Alumnos
     Inherits Persona
     Private pNumeroDeLegajo As String
     Private pFechaDeIngreso As Date
@@ -35,6 +36,22 @@
             MyBase.DNI = value
         End Set
     End Property
+    Friend Overrides Property Telefono As String
+        Get
+            Return MyBase.Telefono
+        End Get
+        Set(value As String)
+            MyBase.Telefono = value
+        End Set
+    End Property
+    Friend Overrides Property TipoTelefono As String
+        Get
+            Return MyBase.TipoTelefono
+        End Get
+        Set(value As String)
+            MyBase.TipoTelefono = value
+        End Set
+    End Property
     'Propiedades especiales
     Friend Property NumeroDeLegajo() As String
         Get
@@ -53,5 +70,26 @@
             pFechaDeIngreso = value
         End Set
     End Property
-
+    'INSERTAR ALUMNOS
+    Friend Sub InsertarAlumno()
+        Try
+            Dim Tabla As String = "PERSONA"
+            InsertarSQL(Tabla)
+            Fila("PERSONA_NOMBRE") = F_Secundario.Alumno.Nombre
+            Fila("PERSONA_APELLIDO") = F_Secundario.Alumno.Apellido
+            Fila("PERSONA_CUIL") = F_Secundario.Alumno.CUIL
+            Fila("PERSONA_DNI") = F_Secundario.Alumno.DNI
+            Insert(Tabla)
+            Comando.CommandText = "Insert Into Persona VALUES(:idpersona,:nombre,:apellido,:cuil,:dni)"
+            Comando.Parameters.Add(New OracleParameter(":idpersona", OracleDbType.Int64, 10, "ID_PERSONA"))
+            Comando.Parameters.Add(New OracleParameter(":nombre", OracleDbType.Varchar2, 100, "PERSONA_NOMBRE"))
+            Comando.Parameters.Add(New OracleParameter(":apellido", OracleDbType.Varchar2, 100, "PERSONA_APELLIDO"))
+            Comando.Parameters.Add(New OracleParameter(":cuil", OracleDbType.Int64, 11, "PERSONA_CUIL"))
+            Comando.Parameters.Add(New OracleParameter(":dni", OracleDbType.Int64, 10, "PERSONA_DNI"))
+            ActualizarSQL(Tabla)
+            MessageBox.Show("Los datos se guardaron correctamente")
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, "Excepción", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
 End Class

@@ -5,6 +5,7 @@
     Private pDireccion As String
     Private pCorrelativa As Boolean
     Private pOptativa As Boolean
+    Private pGrupo As String
     Public Property Descripcion() As String
         Get
             Return pDescripcion
@@ -51,6 +52,14 @@
         End Get
         Set(ByVal value As Carrera)
             pCarrera = value
+        End Set
+    End Property
+    Public Property Grupo() As String
+        Get
+            Return pGrupo
+        End Get
+        Set(ByVal value As String)
+            pGrupo = value
         End Set
     End Property
 End Class

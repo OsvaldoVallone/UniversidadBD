@@ -74,9 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumnos.vb" />
+    <Compile Include="Aula.vb" />
     <Compile Include="Carrera.vb" />
     <Compile Include="Coneccion.vb" />
     <Compile Include="Configuracion.vb" />
+    <Compile Include="Cursos.vb" />
+    <Compile Include="Direccion.vb" />
     <Compile Include="Examen.vb" />
     <Compile Include="Facultad.vb" />
     <Compile Include="F_GestionAlumnos.Designer.vb">
@@ -104,6 +107,7 @@
     <Compile Include="F_Secundario.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Horario.vb" />
     <Compile Include="Materia.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

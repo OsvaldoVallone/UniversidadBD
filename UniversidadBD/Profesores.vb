@@ -1,10 +1,12 @@
-﻿Public NotInheritable Class Profesores
+﻿Imports Oracle.DataAccess.Client
+Public NotInheritable Class Profesores
     Inherits Persona
     Private pMatricula As String
     Private pFechaDeIngreso As Date
     Private pFechaDeBaja As Date
     Private pAntiguedad As Integer
     Private pCorreo As String
+    Private pTipoCorreo As String
     Private pProfesion As String
     'Propiedades heredadas 
     Friend Overrides Property Nombre As String
@@ -37,6 +39,22 @@
         End Get
         Set(value As String)
             MyBase.DNI = value
+        End Set
+    End Property
+    Friend Overrides Property Telefono As String
+        Get
+            Return MyBase.Telefono
+        End Get
+        Set(value As String)
+            MyBase.Telefono = value
+        End Set
+    End Property
+    Friend Overrides Property TipoTelefono As String
+        Get
+            Return MyBase.TipoTelefono
+        End Get
+        Set(value As String)
+            MyBase.TipoTelefono = value
         End Set
     End Property
     'Propiedades especiales
@@ -88,5 +106,12 @@
             pProfesion = value
         End Set
     End Property
-
+    Friend Property TipoCorreo() As String
+        Get
+            Return pTipoCorreo
+        End Get
+        Set(value As String)
+            pTipoCorreo = value
+        End Set
+    End Property
 End Class

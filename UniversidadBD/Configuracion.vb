@@ -1,4 +1,6 @@
-﻿Public Class Configuracion
+﻿Imports Oracle.DataAccess.Client
+Public Class Configuracion
+    Inherits Coneccion
     Private X As Integer
     Private Y As Integer
     Private Alto As Integer
@@ -21,5 +23,14 @@
         Panel.Width = 1069
         Panel.Height = 488
         Panel.Visible = True
+    End Sub
+    Sub CargarComboBox(Combo As ComboBox, Panel As Panel, Tabla As String, Columna As String)
+        If Panel.Visible = True Then
+            Try
+                CargarFilaSQL(Tabla, Tabla & "_" & Columna, Combo)
+            Catch ex As Exception
+                MessageBox.Show(ex.Message, "Excepción", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+        End If
     End Sub
 End Class

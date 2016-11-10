@@ -1,4 +1,5 @@
-﻿Public NotInheritable Class Otros
+﻿Imports Oracle.DataAccess.Client
+Public NotInheritable Class Otros
     Inherits Persona
     Private pCorreo As String
     Private pFechaDeIngreso As Date
